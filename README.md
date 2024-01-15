@@ -7,9 +7,9 @@
 
 **Wiki:** https://www.duckstation.org/wiki/
 
-DuckStation is an simulator/emulator of the Sony PlayStation(TM) console, focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices. "Hack" options are discouraged, the default configuration should support all playable games with only some of the enhancements having compatibility issues.
+DuckStation is a simulator/emulator of the Sony PlayStation(TM) console, focusing on playability, speed, and long-term maintainability. The goal is to be as accurate as possible while maintaining performance suitable for low-end devices. "Hack" options are discouraged, the default configuration should support all playable games with only some of the enhancements having compatibility issues.
 
-A "BIOS" ROM image is required to to start the emulator and to play games. You can use an image from any hardware version or region, although mismatching game regions and BIOS regions may have compatibility issues. A ROM image is not provided with the emulator for legal reasons, you should dump this from your own console using Caetla or other means.
+A "BIOS" ROM image is required to start the emulator and to play games. You can use an image from any hardware version or region, although mismatching game regions and BIOS regions may have compatibility issues. A ROM image is not provided with the emulator for legal reasons, you should dump this from your own console using Caetla or other means.
 
 ## Features
 
@@ -91,7 +91,7 @@ or, if you have FlatHub set up:
  - Run `flatpak install org.duckstation.DuckStation`.
 
 Use `flatpak run org.duckstation.DuckStation` to start, or select `DuckStation` in the launcher of your desktop environment. Follow the Setup Wizard to get started.
- 
+
 ### macOS
 
 Universal MacOS builds are provided for both x64 and ARM64 (Apple Silicon).
@@ -103,7 +103,7 @@ To download:
  - Extract the zip by double-clicking it.
  - Open DuckStation.app, optionally moving it to your desired location first.
  - Depending on GateKeeper configuration, you may need to right click -> Open the first time you run it, as code signing certificates are out of the question for a project which brings in zero revenue.
- 
+
 ### Android
 
 You will need a device with armv7 (32-bit ARM), AArch64 (64-bit ARM), or x86_64 (64-bit x86). 64-bit is preferred, the requirements are higher for 32-bit, you'll probably want at least a 1.5GHz CPU.
